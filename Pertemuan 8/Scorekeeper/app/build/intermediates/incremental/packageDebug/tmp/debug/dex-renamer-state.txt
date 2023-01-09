@@ -1,0 +1,4 @@
+#Mon Nov 28 22:10:09 ICT 2022
+base.0=F\:\\SEMESTER 5\\Pemograman Berbasis Objek\\5.1-5.2\\Scorekeeper\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,4 @@
+#Mon Nov 21 23:02:52 ICT 2022
+base.0=F\:\\SEMESTER 5\\Pemograman Berbasis Objek\\4.2-4.3\\DroidCafeInput\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

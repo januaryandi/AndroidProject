@@ -1,0 +1,4 @@
+#Tue Dec 06 00:55:06 ICT 2022
+base.0=F\:\\SEMESTER 5\\Pemograman Berbasis Objek\\5.3\\RecyclerViewHomework\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

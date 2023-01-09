@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_textone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="launchSecondActivity"
+        android:text="@string/button_main"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/button_two"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/button_two"
+        tools:ignore="MissingConstraints,UsingOnClickInXml"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/button_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="launchThirdActivity"
+        android:text="@string/button_two"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/button_three"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/button_three"
+        app:layout_constraintTop_toBottomOf="@+id/button_textone"
+        tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="launchFourActivity"
+        android:text="@string/button_three"
+        android:gravity="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_two"
+        tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
